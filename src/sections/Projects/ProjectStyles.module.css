@@ -119,6 +119,9 @@ h11{
         gap: 20px;
     }
 
+    .sectionTitle{
+        font-size: 60px;
+    }
     .scroller{
         margin-bottom: 50px;
         max-width: 100%;
@@ -131,5 +134,3 @@ h11{
         )
     }
 }
-
-

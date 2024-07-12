@@ -4,14 +4,14 @@ function NavBar() {
   return (
     <nav id="Nav" className={styles.container}>
       <a href="/" className={styles.logolabel}>
-        chub.
+        chub<span>.</span>
       </a>
       <ul>
         <li className={styles.active}>
           <a href="/Projects">About</a>
         </li>
         <li>
-          <a href="/pricing">Projects</a>
+          <a href="https://shabbydoo63.github.io/CS1130/">Projects</a>
         </li>
       </ul>
     </nav>

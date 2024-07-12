@@ -5,14 +5,13 @@ import Skills from "./sections/Skills/Skills";
 import Contactsfinal from "./sections/Contact/Contacts";
 import Footer from "./sections/Footer/Footer";
 import NavBar from "./sections/NavBar/NavBar";
-
+import Personal from "./sections/Personal/Personal";
 
 function App() {
   console.log("test");
   return (
     <>
-    {/* <NavBar/>
-       */}
+      <NavBar/>
       <Hero />
       {/* add typing effect/ banner/ elemtns */}
       <Projects />
@@ -21,6 +20,8 @@ function App() {
       {/* add actual images */}
       <Contactsfinal />
       {/* properly link */}
+      <Personal/>
+
       <Footer />
     </>
   );

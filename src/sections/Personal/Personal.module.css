@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    img{
+        max-width: 300px;
+        align-self: center;
+        border-radius: 40px;
+        background-color: var(--project-card-bg);
+        margin-bottom: 40px;
+    }
+    a{
+        text-decoration: none;
+
+    }
+    .sectionTitle{
+        margin-bottom: 10px;
+    }
+}
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+@media (width >= 1400px){
+    .projectsContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        padding: 0 30px;
+        text-align: center;
+        gap: 0px;
+    }
+}
