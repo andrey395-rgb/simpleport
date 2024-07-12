@@ -145,8 +145,9 @@
         align-items: center;
         /* justify-content: space-evenly; */
         /* width: max-content; */
-        /* transform: scale(1.2); */
+        transform: scale(1);
         text-align: center;
+        gap: 33vh;
         .hero{
             max-width: 400px;
             width: 400px;
