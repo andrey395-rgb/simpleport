@@ -20,7 +20,7 @@ function NavBar() {
           <a href="#contact">Contact</a>
         </li>
         <li className={styles.active}>
-          <a href="#personal">About Chub</a>
+          <a href="#personal">About chub.</a>
         </li>
       </ul>
     </nav>
