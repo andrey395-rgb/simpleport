@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./Personal.module.css";
 import ProjectCard from "../../common/ProjectCard";
-import viberr from "../../assets/assets/Web1.png";
+import viberr from "../../assets/assets/Art/IMG20240713080705.jpg";
+import movie from "../../assets/assets/Art/peakpx (1).jpg";
+import music from "../../assets/assets/Art/musiccover.jpg";
 
 function Personal() {
   return (
-    <section id="projects" className={styles.container}>
+    <section id="personal" className={styles.container}>
       <div className={styles.scroller}>
         <div className={styles.sectionTitle}>
           <h1>Chobbies!</h1>
@@ -14,22 +16,22 @@ function Personal() {
 
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link={"https://shabbydoo63.github.io/CS1130/"}
-          alt={"Artsie"}
-          p={"Art hobbies!"}
+          src={movie}
+          // link={"https://shabbydoo63.github.io/CS1130/"}
+          alt={"ARCHIVES"}
+          p={"Film faves!"}
         />
         <ProjectCard
           src={viberr}
-          link={"https://shabbydoo63.github.io/CS1130/"}
-          alt={"Artsie"}
+          // link={"#projects"}
+          alt={"ARTSIE"}
           p={"Art hobbies!"}
         />
         <ProjectCard
-          src={viberr}
-          link={"https://shabbydoo63.github.io/CS1130/"}
-          alt={"Artsie"}
-          p={"Art hobbies!"}
+          src={music}
+          // link={"https://shabbydoo63.github.io/CS1130/"}
+          alt={"BEATS"}
+          p={"Music staples!"}
         />
       </div>
     </section>

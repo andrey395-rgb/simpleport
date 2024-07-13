@@ -6,6 +6,7 @@ import Contactsfinal from "./sections/Contact/Contacts";
 import Footer from "./sections/Footer/Footer";
 import NavBar from "./sections/NavBar/NavBar";
 import Personal from "./sections/Personal/Personal";
+import Art from "./sections/Art/Art";
 
 function App() {
   console.log("test");
@@ -21,7 +22,7 @@ function App() {
       <Contactsfinal />
       {/* properly link */}
       <Personal/>
-
+      {/* <Art/> */}
       <Footer />
     </>
   );

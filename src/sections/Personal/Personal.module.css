@@ -3,11 +3,13 @@
     flex-direction: column;
     text-align: center;
     img{
-        max-width: 300px;
+        width: 290px;
+        /* width: auto; */
         align-self: center;
-        border-radius: 40px;
+        border-radius: 20px;
         background-color: var(--project-card-bg);
         margin-bottom: 40px;
+        height: 400px;
     }
     a{
         width: fit-content;
@@ -16,6 +18,9 @@
         transition: transform 200ms ease-in-out;
     }
 
+    h1{
+        margin-bottom: 60px;
+    }
     /* .labeltext{
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
