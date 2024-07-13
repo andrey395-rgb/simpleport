@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <Headroom>
     <nav id="Nav" className={styles.container}>
-      <a href="/" className={styles.logolabel}>
+      <a href="#hero" className={styles.logolabel}>
         chub<span>.</span>
       </a>
       <ul>
