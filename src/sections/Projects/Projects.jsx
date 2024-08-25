@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./ProjectStyles.module.css";
 import viberr from "../../assets/assets/Web1.png";
+import spotiCover from "../../assets/assets/Art/SpotiDupe/Cover.png";
 import ProjectCard from "../../common/ProjectCard";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 
 function Projects() {
   return (
-
-  // const scrollers = document.querySelectorAll(".scroller");
+    // const scrollers = document.querySelectorAll(".scroller");
 
     <section id="projects" className={styles.container}>
       {/* <marquee behavior="" direction=""> */}
@@ -47,6 +47,12 @@ function Projects() {
           alt={"SYNTHSPHERE"}
           p={"Calculation Functions"}
         />
+        <ProjectCard
+          src={spotiCover}
+          link={""}
+          alt={"SpotiDupe"}
+          p={"Music Player"}
+        />
 
         {/* <ProjectCard
           src={viberr}
@@ -59,7 +65,6 @@ function Projects() {
           link={"https://shabbydoo63.github.io/CS1130/"}
           alt={"VIBERR"}
           p={"Streaming App"} */}
-        
       </div>
     </section>
   );

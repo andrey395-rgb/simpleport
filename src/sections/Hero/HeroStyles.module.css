@@ -37,7 +37,7 @@
         background-color: var(--btn-color);
         background: linear-gradient(45deg,#5f43b2,#5e44ad,#7f5af0,#a386f8);
         color: var(--btn-text-color);
-        border: none;
+        border: none;   
         border-radius: 20px;
         width: 126px;
         height: 50px;

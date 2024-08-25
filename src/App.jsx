@@ -9,7 +9,6 @@ import Personal from "./sections/Personal/Personal";
 import Art from "./sections/Art/Art";
 
 function App() {
-  console.log("test");
   return (
     <>
       <NavBar/>

@@ -19,19 +19,19 @@ function Personal() {
           src={movie}
           // link={"https://shabbydoo63.github.io/CS1130/"}
           alt={"ARCHIVES"}
-          p={"Film faves!"}
+          p={"Film Enthusiast"}
         />
         <ProjectCard
           src={viberr}
           // link={"#projects"}
           alt={"ARTSIE"}
-          p={"Art hobbies!"}
+          p={"Artist"}
         />
         <ProjectCard
           src={music}
           // link={"https://shabbydoo63.github.io/CS1130/"}
           alt={"BEATS"}
-          p={"Music staples!"}
+          p={"Music Enthusiast"}
         />
       </div>
     </section>

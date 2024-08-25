@@ -1,5 +1,7 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/assets/1x1softcopy-modified.png";
+// import heroImg from "../../assets/assets/1x1softcopy-modified.png";
+import heroImg from "../../assets/assets/ModifiiedIcon.png";
+
 import sun from "../../assets/assets/sun.svg";
 import moon from "../../assets/assets/moon.svg";
 import instagramlight from "../../assets/assets/github-light.svg";
@@ -8,7 +10,7 @@ import linkedinlight from "../../assets/assets/linkedin-light.svg";
 import instagramdark from "../../assets/assets/github-dark.svg";
 import facebookdark from "../../assets/assets/facebook-circle-fill-one.svg";
 import linkedindark from "../../assets/assets/linkedin-dark.svg";
-import CV from "../../assets/assets/Resume 2024.pdf";
+import CV from "../../assets/assets/Ramirez_ResumeComp.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import { useTypewriter } from "react-simple-typewriter";
 
@@ -60,7 +62,7 @@ function Hero() {
           </span>
           <p className={styles.description}>
             I am a college student taking up a Bachelor of Science <br></br> in Computer
-            Science in Ateneo de Davao University.
+            Science in Ateneo de Davao University.<br></br>| Internship Ready |
           </p>
           <a href={CV} download>
             <button className="hover">Resume</button>

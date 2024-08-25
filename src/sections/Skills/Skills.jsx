@@ -9,6 +9,8 @@ import C from "../../assets/assets/c-original.svg"
 import CTT from "../../assets/assets/c-original.svg"
 import PY from "../../assets/assets/python-original.svg"
 import JAV from "../../assets/assets/java-plain-wordmark.svg"
+import dart from "../../assets/assets/Art/icons8-dart.svg"
+import fireBase from "../../assets/assets/Logomark_Full Color.svg"
 
 
 function Skills() {
@@ -27,6 +29,14 @@ function Skills() {
         <SkillList src={CTT} skill="C++" />
         <SkillList src={PY} skill="Python" />
         <SkillList src={JAV} skill="Java" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={dart} skill="dart" />
+        <SkillList src={fireBase} skill="firebase" />
+        {/* <SkillList src={CTT} skill="C++" />
+        <SkillList src={PY} skill="Python" />
+        <SkillList src={JAV} skill="Java" /> */}
       </div>
       <hr />
 
