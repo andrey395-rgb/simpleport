@@ -49,7 +49,7 @@ function Projects() {
         />
         <ProjectCard
           src={spotiCover}
-          link={""}
+          link={"https://github.com/andrey395-rgb/spotidupe"}
           alt={"SpotiDupe"}
           p={"Music Player"}
         />

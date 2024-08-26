@@ -20,7 +20,7 @@ function App() {
       {/* add actual images */}
       <Contactsfinal />
       {/* properly link */}
-      <Personal/>
+      {/* <Personal/> */}
       {/* <Art/> */}
       <Footer />
     </>
