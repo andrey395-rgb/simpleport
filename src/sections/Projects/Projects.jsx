@@ -3,6 +3,8 @@ import styles from "./ProjectStyles.module.css";
 import viberr from "../../assets/assets/Web1.png";
 import spotiCover from "../../assets/assets/Art/SpotiDupe/Cover.png";
 import ProjectCard from "../../common/ProjectCard";
+import Pokeball from "../../assets/assets/pokeball.png";
+import Order from "../../assets/assets/orderbuild.png";
 // import { Swiper, SwiperSlide } from "swiper/react";
 
 function Projects() {
@@ -52,6 +54,19 @@ function Projects() {
           link={"https://github.com/andrey395-rgb/spotidupe"}
           alt={"SpotiDupe"}
           p={"Music Player"}
+        />
+
+        <ProjectCard
+          src={Pokeball}
+          link={"https://github.com/andrey395-rgb/POKEDEX-INTERACTIVE"}
+          alt={"Pokedex"}
+          p={"Pokémon database"}
+        />
+        <ProjectCard
+          src={Order}
+          link={"https://github.com/andrey395-rgb/OrderBuilder"}
+          alt={"OrderBuilder"}
+          p={"create, track and manage order histories"}
         />
 
         {/* <ProjectCard
