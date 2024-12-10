@@ -42,7 +42,7 @@ function Hero() {
           <span className={styles.shabby}>👾 Andrey {typeEffect}
             </span>
         </h1>
-          <h2>Frontend Developer</h2>
+          <h2>Fullstack Developer <br />  Backend Developer  <br />Frontend Developer</h2>
           <span>
             <a href="https://github.com/andrey395-rgb" target="_blank">
               <img src={instagramIcon} alt="IG Icon" />
