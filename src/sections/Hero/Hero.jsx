@@ -10,7 +10,7 @@ import linkedinlight from "../../assets/assets/linkedin-light.svg";
 import instagramdark from "../../assets/assets/github-dark.svg";
 import facebookdark from "../../assets/assets/facebook-circle-fill-one.svg";
 import linkedindark from "../../assets/assets/linkedin-dark.svg";
-import CV from "../../assets/assets/Ramirez_ResumeComp.pdf";
+import CV from "../../assets/assets/RamirezResumé2024.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import { useTypewriter } from "react-simple-typewriter";
 
