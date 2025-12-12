@@ -5,6 +5,7 @@ import spotiCover from "../../assets/assets/Art/SpotiDupe/Cover.png";
 import ProjectCard from "../../common/ProjectCard";
 import Pokeball from "../../assets/assets/pokeball.png";
 import Order from "../../assets/assets/orderbuild.png";
+import Jebran from "../../assets/assets/Jebran_thumbnail.png";
 // import { Swiper, SwiperSlide } from "swiper/react";
 
 function Projects() {
@@ -62,11 +63,18 @@ function Projects() {
           alt={"Pokedex"}
           p={"Pokémon database"}
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={Order}
           link={"https://github.com/andrey395-rgb/OrderBuilder"}
           alt={"OrderBuilder"}
-          p={"create, track and manage order histories"}
+          p={"manage order histories"}
+        />
+        <br /> */}
+        <ProjectCard
+          src={Jebran}
+          link={"https://github.com/andrey395-rgb/OrderBuilder"}
+          alt={"Jebran Website"}
+          p={"E-commerce Website"}
         />
 
         {/* <ProjectCard

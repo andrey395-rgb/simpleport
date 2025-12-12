@@ -12,6 +12,7 @@ import JAV from "../../assets/assets/java-plain-wordmark.svg"
 import dart from "../../assets/assets/Art/icons8-dart.svg"
 import fireBase from "../../assets/assets/Logomark_Full Color.svg"
 import SQL from "../../assets/assets/mysql-logo-svgrepo-com.svg"
+import postgres from "../../assets/assets/postgres-sql.svg"
 
 function Skills() {
   return (
@@ -35,6 +36,7 @@ function Skills() {
         <SkillList src={dart} skill="dart" />
         <SkillList src={fireBase} skill="firebase" />
         <SkillList src={SQL} skill="MySQL" />
+        <SkillList src={postgres} skill="PostgreSQL" />
 
         {/* <SkillList src={CTT} skill="C++" />
         <SkillList src={PY} skill="Python" />
