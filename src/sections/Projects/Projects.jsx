@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectStyles.module.css";
-import viberr from "../../assets/assets/Web1.png";
+import viberr from "../../assets/assets/cssec-website.png";
 import spotiCover from "../../assets/assets/Art/SpotiDupe/Cover.png";
 import ProjectCard from "../../common/ProjectCard";
 import Pokeball from "../../assets/assets/pokeball.png";
@@ -46,9 +46,9 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link={"https://shabbydoo63.github.io/CS1130/"}
-          alt={"SYNTHSPHERE"}
-          p={"Calculation Functions"}
+          link={"https://addu-cssec-website.netlify.app/"}
+          alt={"CSSEC Website"}
+          p={"Official CSSEC Website"}
         />
         <ProjectCard
           src={spotiCover}
