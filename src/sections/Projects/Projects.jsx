@@ -6,6 +6,7 @@ import ProjectCard from "../../common/ProjectCard";
 import Pokeball from "../../assets/assets/pokeball.png";
 import Order from "../../assets/assets/orderbuild.png";
 import Jebran from "../../assets/assets/Jebran_thumbnail.png";
+import Golem from "../../assets/assets/delisoft.jpg";
 // import { Swiper, SwiperSlide } from "swiper/react";
 
 function Projects() {
@@ -56,13 +57,6 @@ function Projects() {
           alt={"SpotiDupe"}
           p={"Music Player"}
         />
-
-        <ProjectCard
-          src={Pokeball}
-          link={"https://github.com/andrey395-rgb/POKEDEX-INTERACTIVE"}
-          alt={"Pokedex"}
-          p={"Pokémon database"}
-        />
         {/* <ProjectCard
           src={Order}
           link={"https://github.com/andrey395-rgb/OrderBuilder"}
@@ -75,6 +69,12 @@ function Projects() {
           link={"https://github.com/andrey395-rgb/OrderBuilder"}
           alt={"Jebran Website"}
           p={"E-commerce Website"}
+        />
+        <ProjectCard
+          src={Golem}
+          link={"https://www.bedrockexplorer.com/@delisoft-studios/golem-elemental"}
+          alt={"Golem Elemental"}
+          p={"Delisoft Studios Addon"}
         />
 
         {/* <ProjectCard
