@@ -4,7 +4,7 @@ import styles from "./NavBar.module.css";
 function NavBar() {
   return (
     <Headroom>
-      <nav id="Nav" className={styles.container}>
+      <nav data-aos="fade-down" data-aos-duration="2000" id="Nav" className={styles.container}>
         <a href="#hero" className={styles.logolabel}>
           chub<span>.</span>
         </a>

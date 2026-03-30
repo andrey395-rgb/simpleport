@@ -20,6 +20,20 @@ function Hero() {
   const instagramIcon = theme === "light" ? instagramlight : instagramdark;
   const facebookIcon = theme === "light" ? facebooklight : facebookdark;
   const linkedinIcon = theme === "light" ? linkedinlight : linkedindark;
+
+  const openResume = () => {
+    const width = 900;
+    const height = 700;
+    const left = window.screenX + Math.max(0, (window.outerWidth - width) / 2);
+    const top = window.screenY + Math.max(0, (window.outerHeight - height) / 2);
+
+    const features = `width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`;
+
+    const w = window.open(CV, "resume", features);
+    // Fallback for cases where popup blockers prevent `window.open`.
+    if (!w) window.location.href = CV;
+  };
+
   const [typeEffect] = useTypewriter({
     words: ["Ramirez", "'Chubs'"],
     loop: {},
@@ -28,7 +42,7 @@ function Hero() {
   });
   return (
     <section id="hero" className={styles.container}>
-      <div className={styles.colorModeContainer}>
+      <div data-aos="fade-left" data-aos-duration="2000" className={styles.colorModeContainer}>
         <img className={styles.Hero} src={heroImg} alt="Profile Picture" />
         <img
           className={styles.colorMode}
@@ -37,12 +51,12 @@ function Hero() {
           onClick={toggleTheme}
         />
       </div>
-      <div className={styles.info}>
+      <div data-aos="fade-right" data-aos-duration="2000"className={styles.info}>
         <h1>
           <span className={styles.shabby}>👾 Andrey {typeEffect}
             </span>
         </h1>
-          <h2>Fullstack Developer <br />  Backend Developer  <br />Frontend Developer</h2>
+          <h2>Fullstack Developer</h2>
           <span>
             <a href="https://github.com/andrey395-rgb" target="_blank">
               <img src={instagramIcon} alt="IG Icon" />
@@ -64,9 +78,9 @@ function Hero() {
             I am a college student taking up a Bachelor of Science <br></br> in Computer
             Science in Ateneo de Davao University.<br></br>| Internship Ready |
           </p>
-          <a href={CV} download>
-            <button className="hover">Resume</button>
-          </a>
+          <button type="button" className="hover" onClick={openResume}>
+            Resume
+          </button>
       </div>
     </section>
   );

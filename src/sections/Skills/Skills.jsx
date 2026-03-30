@@ -16,23 +16,23 @@ import postgres from "../../assets/assets/postgres-sql.svg"
 
 function Skills() {
   return (
-    <section id="skills" className={styles.container}>
+    <section data-aos="fade-up" data-aos-duration="1000" id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
-      <div className={styles.skillList}>
+      <div data-aos="fade-up" data-aos-duration="1000" className={styles.skillList}>
         <SkillList src={html} skill="HTML" />
         <SkillList src={JS} skill="JavaScript" />
         <SkillList src={CSS} skill="CSS" />
         <SkillList src={RJS} skill="React JS" />
       </div>
-      <hr />
-      <div className={styles.skillList}>
+      <hr data-aos="fade-up" data-aos-duration="1000" />
+      <div data-aos="fade-up" data-aos-duration="1000" className={styles.skillList}>
         <SkillList src={C} skill="C" />
         <SkillList src={CTT} skill="C++" />
         <SkillList src={PY} skill="Python" />
         <SkillList src={JAV} skill="Java" />
       </div>
-      <hr />
-      <div className={styles.skillList}>
+      <hr data-aos="fade-up" data-aos-duration="1000" />
+      <div data-aos="fade-up" data-aos-duration="1000" className={styles.skillList}>
         <SkillList src={dart} skill="dart" />
         <SkillList src={fireBase} skill="firebase" />
         <SkillList src={SQL} skill="MySQL" />

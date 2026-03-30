@@ -13,7 +13,7 @@ function Projects() {
   return (
     // const scrollers = document.querySelectorAll(".scroller");
 
-    <section id="projects" className={styles.container}>
+    <section data-aos="fade-up" data-aos-duration="1000" id="projects" className={styles.container}>
       {/* <marquee behavior="" direction=""> */}
       <div className={styles.scroller}>
         <div className={styles.sectionTitle}>

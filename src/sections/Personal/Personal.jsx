@@ -7,7 +7,7 @@ import music from "../../assets/assets/Art/musiccover.jpg";
 
 function Personal() {
   return (
-    <section id="personal" className={styles.container}>
+    <section data-aos="fade-up" data-aos-duration="1000" id="personal" className={styles.container}>
       <div className={styles.scroller}>
         <div className={styles.sectionTitle}>
           <h1>Chobbies!</h1>

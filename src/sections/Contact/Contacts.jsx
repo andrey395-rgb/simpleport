@@ -2,7 +2,7 @@ import styles from "./ContactStyles.module.css";
 
 function Contactsfinal() {
   return (
-    <section id="contact" className={styles.container}>
+    <section data-aos="fade-up" data-aos-duration="1000" id="contact" className={styles.container}>
       <h1 className="sectionTitle">Work with me!</h1>
       <form action="https://formspree.io/f/mrbzgoow" method="POST">
         <div className="formGroup">
