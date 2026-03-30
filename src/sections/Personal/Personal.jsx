@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./Personal.module.css";
 import ProjectCard from "../../common/ProjectCard";
 import viberr from "../../assets/assets/Art/IMG20240713080705.jpg";
-import movie from "../../assets/assets/Art/peakpx (1).jpg";
-import music from "../../assets/assets/Art/musiccover.jpg";
+import movie from "../../assets/assets/Art/movie.jpg";
+import music from "../../assets/assets/Art/singing-hobby.jpg";
 
 function Personal() {
   return (
@@ -18,20 +18,20 @@ function Personal() {
         <ProjectCard
           src={movie}
           // link={"https://shabbydoo63.github.io/CS1130/"}
-          alt={"ARCHIVES"}
+          alt={"MOVIES"}
           p={"Film Enthusiast"}
         />
         <ProjectCard
           src={viberr}
           // link={"#projects"}
-          alt={"ARTSIE"}
+          alt={"ART"}
           p={"Artist"}
         />
         <ProjectCard
           src={music}
           // link={"https://shabbydoo63.github.io/CS1130/"}
-          alt={"BEATS"}
-          p={"Music Enthusiast"}
+          alt={"ECHOES"}
+          p={"Vocalist"}
         />
       </div>
     </section>

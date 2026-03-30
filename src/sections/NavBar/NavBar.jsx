@@ -16,10 +16,10 @@ function NavBar() {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#hero">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li className={styles.active}>
-            <a href="#hero">About chub.</a>
+            <a href="#personal">About chub.</a>
           </li>
         </ul>
         {/* <div class="bx bx-menu" id="menu-icon"></div> */}
