@@ -47,13 +47,13 @@ function Organization() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link={"https://addu-cssec-website.netlify.app/"}
+          link={"https://www.facebook.com/SAMAHANSysDev/"}
           alt={"Systems Development"}
           p={"SAMAHAN Systems Development"}
         />
         <ProjectCard
           src={Minecrafters}
-          link={"https://www.bedrockexplorer.com/@delisoft-studios/golem-elemental"}
+          link={"https://delisoftstudio.wixsite.com/delisoftstudio"}
           alt={"Game Development"}
           p={"Delisoft Studios"}
         />
