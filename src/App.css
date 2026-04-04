@@ -3,6 +3,7 @@
     --btn-color: rgb(0, 0, 0);
     --btn-text-color: #fff;
     --project-card-bg: #fff;
+    --project-card-border: rgba(34, 34, 34, 0.14);
     --text-color: #222;
     --form-text-color: #555;
     --footer-text-color: #888;
@@ -13,6 +14,7 @@
     --btn-color: #fff;
     --btn-text-color: #ffffff;
     --project-card-bg: #fff;
+    --project-card-border: rgba(255, 255, 255, 0.16);
     --text-color: #fff;
     --form-text-color: #fff;
     --footer-text-color: #bbb;

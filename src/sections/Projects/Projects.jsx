@@ -6,7 +6,8 @@ import ProjectCard from "../../common/ProjectCard";
 import Pokeball from "../../assets/assets/pokeball.png";
 import Order from "../../assets/assets/orderbuild.png";
 import Jebran from "../../assets/assets/Jebran_thumbnail.png";
-import Golem from "../../assets/assets/delisoft.jpg";
+import Golem from "../../assets/assets/delisoft.png";
+import Sentiment from "../../assets/assets/sentiment.png";
 // import { Swiper, SwiperSlide } from "swiper/react";
 
 function Projects() {
@@ -75,6 +76,12 @@ function Projects() {
           link={"https://www.bedrockexplorer.com/@delisoft-studios/golem-elemental"}
           alt={"Golem Elemental"}
           p={"Delisoft Studios Addon"}
+        />
+        <ProjectCard
+          src={Sentiment}
+          link={"https://github.com/andrey395-rgb/Sentiment-based-Website-Satisfaction-Index-Using-Word-Vectors"}
+          alt={"Machine Learning Project"}
+          p={"Sentiment Based Website Satisfaction Index Using Word Vectors"}
         />
 
         {/* <ProjectCard
